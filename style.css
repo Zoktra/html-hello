@@ -1,0 +1,43 @@
+body {
+    background: rgb(224, 221, 221);
+}
+header {
+    background: white;
+
+}
+header h1 {
+    margin: 0;
+}
+.post {
+    background: white;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.post img {
+    width: 100%;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.post h2, .post p {
+    padding: 10px;
+}
+.post .post-header {
+    display: flex;
+}
+.post-header h2 {
+    width: 80%;
+    display: inline-block;
+}
+.post-header span {
+    width: 20%;
+    display: inline-block;
+    margin: auto;
+    text-align: right;
+    padding-right: 10px;
+    color: grey;
+}
+.post p {
+    text-align: center;
+}
